@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Imię Nazwisko — Fotograf</title>
+  <meta name="description" content="Minimalistyczne portfolio fotograficzne. Sesje ślubne, portrety, editorial." />
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="Imię Nazwisko — Fotograf" />
+  <meta property="og:description" content="Minimalistyczne portfolio fotograficzne." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503264116251-35a269479413?w=1200&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Photographer",
+    "name": "Imię Nazwisko",
+    "url": "https://twoja-nazwa.github.io/moja-strona-fotografa/",
+    "image": "https://images.unsplash.com/photo-1503264116251-35a269479413?w=1200&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1",
+    "telephone": "+48-123-456-789",
+    "email": "kontakt@twojadomena.pl",
+    "description": "Fotograf specjalizujący się w sesjach ślubnych, portretach i fotografii komercyjnej."
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Imię Nazwisko</a>
+      <nav class="nav">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">O mnie</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner container">
+      <h1>Minimalistyczne <span class="accent">fotografie</span> z duszą</h1>
+      <p class="lead">Sesje ślubne • Portrety • Photography for brands</p>
+      <a class="btn" href="#portfolio">Zobacz portfolio</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="portfolio" class="portfolio">
+      <h2>Portfolio</h2>
+      <p class="muted">Kliknij zdjęcie, aby powiększyć.</p>
+
+      <div class="grid" id="gallery">
+        <!-- Images use Unsplash source URLs (replace with your CDN links in production) -->
+        <figure class="card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1503264116251-35a269479413?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" 
+               alt="Para podczas pleneru" data-full="https://images.unsplash.com/photo-1503264116251-35a269479413?w=2000&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1">
+          <figcaption>Sesja ślubna — plener</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" 
+               alt="Portret kobiety" data-full="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=2000&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1">
+          <figcaption>Portret — studio</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1508186225878-1b9f03f3a0be?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" 
+               alt="Czarno-biała fotografia" data-full="https://images.unsplash.com/photo-1508186225878-1b9f03f3a0be?w=2000&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1">
+          <figcaption>Editorial — czarno-białe</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" 
+               alt="Fotografia produktowa" data-full="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=2000&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1">
+          <figcaption>Produkt — still life</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" 
+               alt="Para na moście" data-full="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=2000&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1">
+          <figcaption>Sesja — reportaż</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" 
+               alt="Naturalny portret" data-full="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=2000&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=1">
+          <figcaption>Portret — natural light</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>O mnie</h2>
+      <p>Jestem fotografem z zamiłowania do naturalnego światła i minimalistycznego stylu. Pracuję na terenie Polski i Europy. Oferta: reportaże ślubne, sesje portretowe, sesje komercyjne.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Kontakt</h2>
+      <p>Chcesz umówić sesję? Napisz wiadomość.</p>
+      <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+        <label>Imię i nazwisko<input name="name" type="text" required></label>
+        <label>Email<input name="email" type="email" required></label>
+        <label>Wiadomość<textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Wyślij</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Imię Nazwisko — Fotograf</p>
+      <p class="muted">IG · Behance · Kontakt</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lbClose" class="lb-close" aria-label="Zamknij">✕</button>
+    <img id="lbImage" src="" alt="">
+    <p id="lbCaption"></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
